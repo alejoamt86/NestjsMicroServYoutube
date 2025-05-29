@@ -1,5 +1,11 @@
 comandos lanzados
 
+clase prisma sql y logs
+npm i prima --save-dev  se instala prisma
+npx prisma init  se inicializa prisma
+npx prisma migrate dev --name init  se lanza la migracion
+npm i @prisma/client instalacion del prisma cliente
+
 
 clase configuracion variables de entorno
     instala sobre el proyecto npm i dotenv joi
