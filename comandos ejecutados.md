@@ -1,5 +1,9 @@
 comandos lanzados
 
+clase entidad y dtos
+   npm i class-validator class-transformer
+   
+
 clase 2 
      nos ubiccamos en la raiz de el proyecto de productosms y generamos un nuevo recurso sobre el proyecto
     cd .\Microservicios\Products-App\product-ms\
