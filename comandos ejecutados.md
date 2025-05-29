@@ -1,6 +1,8 @@
 comandos lanzados
 
-
+clase elimininacion suave 
+    npx prisma migrate dev --name availabel  se lanza la migracion
+    npx prisma migrate dev --name available-index
 
 clase prisma sql y logs
     npm i prima --save-dev  se instala prisma
