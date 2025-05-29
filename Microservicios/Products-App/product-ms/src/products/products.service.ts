@@ -5,9 +5,9 @@ import { PrismaClient } from 'generated/prisma/client';
 
 
 @Injectable()
-export class ProductsService extends PrismaClient implements OnModuleInit{
-  
-private readonly logger = new Logger('ProductService');
+export class ProductsService extends PrismaClient implements OnModuleInit {
+
+  private readonly logger = new Logger('ProductService');
 
   onModuleInit() {
     this.$connect();
@@ -20,7 +20,7 @@ private readonly logger = new Logger('ProductService');
   }
 
   findAll() {
-    return `This action returns all products`;
+    return this.product.findMany({})
   }
 
   findOne(id: number) {
