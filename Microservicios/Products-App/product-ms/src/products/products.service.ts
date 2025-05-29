@@ -16,7 +16,7 @@ private readonly logger = new Logger('ProductService');
 
 
   create(createProductDto: CreateProductDto) {
-    return 'This action adds a new product';
+    return this.product.create({ data: createProductDto });
   }
 
   findAll() {
