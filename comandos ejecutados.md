@@ -1,8 +1,17 @@
 comandos lanzados
 
+
+clase configuracion variables de entorno
+    instala sobre el proyecto npm i dotenv joi
+
+    recomienta instalas easy snipper para el manejo de los snipper y poner las variables de entorno en esta parte.
+    se seleciona lo que quiero como snippet
+    ctrl shihf p  easy snippet from select y nombre del snippet
+
+
 clase entidad y dtos
    npm i class-validator class-transformer
-   
+
 
 clase 2 
      nos ubiccamos en la raiz de el proyecto de productosms y generamos un nuevo recurso sobre el proyecto
